@@ -1,0 +1,7 @@
+{
+  "name": "namazgah",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

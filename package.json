@@ -1,0 +1,27 @@
+{
+  "name": "namazgah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ielmar/namazgah-capacitorjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ielmar/namazgah-capacitorjs/issues"
+  },
+  "homepage": "https://github.com/ielmar/namazgah-capacitorjs#readme",
+  "dependencies": {
+    "@capacitor/android": "^4.4.0",
+    "@capacitor/core": "^4.4.0",
+    "@capacitor/ios": "^4.4.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^4.4.0"
+  }
+}
