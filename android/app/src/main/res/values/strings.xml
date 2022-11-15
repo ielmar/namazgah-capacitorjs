@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">namazgah</string>
+    <string name="title_activity_main">namazgah</string>
+    <string name="package_name">com.elitsolutions.namazgah</string>
+    <string name="custom_url_scheme">com.elitsolutions.namazgah</string>
+</resources>
