@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Namazgah</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <meta name="format-detection" content="telephone=no" />
+    <meta id="viewport" name="viewport" content="user-scalable=no, initial-scale=1, width=device-width" />
+    <link href="css/materialize.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/namazgah.css" rel="stylesheet">
+
+<style>
+	.orange_box>div{
+		position: relative;
+		margin: 0 0 10px;
+	}
+	.image_overlay {
+	    height: 100%;
+	    width: 100%;
+	    z-index: 2;
+	}	
+	.image_overlay_wrap {
+	    background-color: #ffe0b2;
+	    width: 100%;
+	    height: 100%;
+	    display: table;
+	}	
+	.overlay {
+	    display: table-cell;
+	    vertical-align: middle;
+	    text-align: center;
+    	padding: 80px 0 20px;	    
+	}	
+	.overlay i {
+	    color: #C3AB86;
+	    font-size: 84px;
+	}	
+	.overlay a {
+	    display: block;
+	    width: 100%;
+	    height: 100%;
+	    color: #796a54;
+	    font-size: 30px;
+	    font-family: Roboto;
+	}	
+	.padd_right{
+		padding-right: 0!important;
+	}	
+</style>    
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <div class="collection side-nav" id="slide-out">
+                <img src="img/drawer_image.png" width="300">
+                <a href="#!" class="collection-item showTimes">
+                    <i class="material-icons right">timer</i> Vaxtlar
+                </a>
+                <a href="#!" class="collection-item showNamazgah">
+                    <i class="material-icons right">filter_list</i> Namazgahlar
+                </a>
+                <!-- a href="#!" class="collection-item showNotes">
+                    <i class="material-icons right">note_add</i> Qeydlər
+                </a>
+                <a href="#!" class="collection-item showSettings">
+                    <i class="material-icons right">settings</i> Sazlanma
+                </a -->
+            </div>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+            <div id="title" class="brand-logo center title">
+                Namazgah<br>
+                <a id="gregorian"></a>
+                <a id="hijri"></a>
+            </div>
+            <a href="#" id="showMap" class="right modal-trigger">
+		    	<i class="icon-location"></i>
+            </a>
+        </div>
+    </nav>
+    <content style="overflow: hidden; display: block;">
+		<div class="row orange_box">
+	      <div class="col s6 padd_right">
+			<div class="image_overlay">
+				<div class="image_overlay_wrap">
+					<div class="overlay">
+		                <i class="icon-mosque"></i>
+						<a href="" title="Məscidlər">Məscidlər</a>
+					</div>
+				</div>
+			</div>	      	
+	      </div>
+	      <div class="col s6">
+			<div class="image_overlay">
+				<div class="image_overlay_wrap">
+					<div class="overlay">
+		                <i class="icon-mosque"></i>
+						<a href="" title="Məscidlər">Məscidlər</a>
+					</div>
+				</div>
+			</div>	      	
+	      </div>
+	      <div class="col s12">
+			<div class="image_overlay">
+				<div class="image_overlay_wrap">
+					<div class="overlay">
+		                <i class="icon-mosque"></i>
+						<a href="" title="Məscidlər">Məscidlər</a>
+					</div>
+				</div>
+			</div>	      	
+	      </div>
+	      <div class="col s6 padd_right">
+			<div class="image_overlay">
+				<div class="image_overlay_wrap">
+					<div class="overlay">
+		                <i class="icon-mosque"></i>
+						<a href="" title="Məscidlər">Məscidlər</a>
+					</div>
+				</div>
+			</div>	      	
+	      </div>
+	      <div class="col s6">
+			<div class="image_overlay">
+				<div class="image_overlay_wrap">
+					<div class="overlay">
+		                <i class="icon-mosque"></i>
+						<a href="" title="Məscidlər">Məscidlər</a>
+					</div>
+				</div>
+			</div>	      	
+	      </div>
+	    </div>    	
+    </content>
+<!--    <script type="text/javascript" src="cordova.js"></script>-->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/prayTimes.js"></script>
+    <script type="text/javascript" src="js/fastclick.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>

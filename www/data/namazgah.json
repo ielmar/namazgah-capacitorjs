@@ -1,0 +1,15 @@
+var namazgah = '[
+{
+"ad": "Diqlas ticarət mərkəzi",
+"sekil": "namazgah/Diqlas.jpg",
+"latitude": "40.4058",
+"longitude": "49.9469",
+"description": "Dəstəmazxana - Var Təharətxana - Var 25 nəfər camaat namazı qılına bilər. 3cü mərtəbədə yerləşir Qadınlar üçün yer ayrılıb."
+}, 
+{
+"ad": "Laçın ticarət mərkəzi",
+"sekil": "namazgah/LacinTm.jpg",
+"latitude": "40.3992",
+"longitude": "49.9511",
+"description": "Dəstəmazxana - Yoxdu Təharətxana - Yoxdur 25 nəfər camaat namazı qılına bilər. 3cü mərtəbədə yerləşir Qadınlar üçün yer ayrılıb."
+}]';

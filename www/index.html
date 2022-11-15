@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Namazgah</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+    <meta name="format-detection" content="telephone=no" />
+    <meta id="viewport" name="viewport" content="user-scalable=no, initial-scale=1, width=device-width" />
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/materialize.min.css" rel="stylesheet">
+</head>
+
+<body>
+   <script id="citySelect-template" type="text/template">
+    <header class="bar bar-nav settings" id="nav">
+        <img src="img/drawer_image.png">
+    </header>
+    <div class="content settings-content">
+        <div class="valign-wrapper">
+            <h5 class="valign city-select">Şəhəri seçin</h5>
+        </div>
+        <div class="collection cities-list">
+            <a href="#!" class="collection-item city" id="baki" city-name="Bakı" city-latitude="40.3777" city-longitude="49.892">Baku</a>
+        </div>      
+    </div>
+    </script>
+    <script id="nav-template" type="text/template">
+    <nav>
+        <div class="nav-wrapper">
+            <div class="collection side-nav" id="slide-out">
+                <img src="img/drawer_image.png" width="300">
+                <a href="#!" class="collection-item showTimes">
+                    <i class="material-icons right">timer</i> Vaxtlar
+                </a>
+                <a href="#!" class="collection-item showNamazgah">
+                    <i class="material-icons right">filter_list</i> Namazgahlar
+                </a>
+                <!-- a href="#!" class="collection-item showNotes">
+                    <i class="material-icons right">note_add</i> Qeydlər
+                </a>
+                <a href="#!" class="collection-item showSettings">
+                    <i class="material-icons right">settings</i> Sazlanma
+                </a -->
+            </div>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+            <div id="title" class="brand-logo center title">
+                Namazgah<br>
+                <a id="gregorian"></a>
+                <a id="hijri"></a>
+            </div>
+            <a href="#" id="showMap" class="right modal-trigger">
+                <i class="material-icons">room</i>
+            </a>
+        </div>
+    </nav>
+    <content>
+    </content>
+    </script>
+    <script id="index-template" type="text/template">
+    <div class="content index-content">
+      <div class="row">
+
+          <div class="card orange lighten-4">
+            <div class="card-content">
+                <div class="left">
+               <i class="material-icons medium orange-text lighten-1">wb_sunny</i>
+                </div>
+                <div class="right">
+                    <div class="novbetiNamaz">Zohr</div>
+                    <div class="novbetiNamazaQalir">13:40</div>
+                </div>
+                <div class="center novbetiNamazVaxti">
+                    13:50
+                </div>
+            </div>
+          </div>
+
+      </div>
+      
+      <div class="collection times">
+        </div>
+      
+      <div class="row">
+
+          <div class="card lighten-4">
+            <div class="card-content">
+                <h4>Günün ayə-hədisini oxu</h4>
+                <p class="dua"></p>
+                <!-- a class="card-title grey-text center waves-effect waves-light modal-trigger" href="#modal1"><i class="material-icons">chrome_reader_mode</i> Günün ayə-hədisini oxu</a -->
+            </div>
+          </div>
+          
+            <!-- div id="modal1" class="modal bottom-sheet">
+                <div class="modal-content">
+                    <h4>Günün duası</h4>
+                    <p class="dua"></p>
+                </div>
+            </div -->
+
+      </div>
+    </div>
+    </script>
+    
+    <script id="namazgahList-template" type="text/template">
+    <div class="namazgah-list" style="overflow: scroll;">
+        <ul class="collection">
+        </ul>
+    </div>
+    </script>
+    
+    <script id="namazgah-template" type="text/template">
+    <div class="row">
+        <div class="col s12 m7">
+          <div class="card">
+            <div class="card-image">
+              <img src="">
+              <span class="card-title"></span>
+            </div>
+            <div class="card-content">
+              <p></p>
+            </div>
+            <div class="card-action" id="showMap">
+            </div>
+          </div>
+        </div>
+      </div>
+    </script>
+    
+    <script id="map-template" type="text/template">
+        <div id="map_canvas"></div>
+    </script>
+    
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/prayTimes.js"></script>
+    <script type="text/javascript" src="js/fastclick.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>

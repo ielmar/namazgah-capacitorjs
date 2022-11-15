@@ -1,0 +1,123 @@
+{
+    "locations": [{
+        "ad": "AF Centre",
+        "sekil": "locations/AF-Centre.JPG",
+        "latitude": "40.3817508",
+        "longitude": "49.8388848",
+        "description": "Dəstəmazxana - Tualet Təharətxana - Tualet 4 nəfər camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Büyük Fırat",
+        "sekil": "locations/Buyuk-Firat.JPG",
+        "latitude": "40.372017",
+        "longitude": "49.839638",
+        "description": "Dəstəmazxana - Tualet Təharətxana - Tualet 5 nəfər camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Cümə məscidi- İçərişəhər",
+        "sekil": "locations/Cume-mescidi-icerisheher.JPG",
+        "latitude": "40.3654009",
+        "longitude": "49.8349184",
+        "description": "Dəstəmazxana - Həyətdə Təharətxana - Həyətdə Camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Əjdərbəy məscidi",
+        "sekil": "locations/Ejderbey.JPG",
+        "latitude": "40.3858234",
+        "longitude": "49.8372618",
+        "description": "Dəstəmazxana - Həyətdə Təharətxana - Həyətdə Camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Ləzgi məscidi",
+        "sekil": "locations/lezgi-mescidi.JPG",
+        "latitude": "40.3653892",
+        "longitude": "49.8357609",
+        "description": "Dəstəmazxana - Həyətdə Təharətxana - Həyətdə Camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Mado",
+        "sekil": "locations/Mado.jpg",
+        "latitude": "40.371923",
+        "longitude": "49.838629",
+        "description": "Dəstəmazxana - Var Təharətxana - Var 4 nəfər camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Megafun",
+        "sekil": "locations/Megafun.JPG",
+        "latitude": "40.3781445",
+        "longitude": "49.8719108",
+        "description": "Dəstəmazxana - Tualet Təharətxana - Var 35 nəfər camaat namazı qılına bilər. Qadınlar üçün yer var.",
+   }, {
+        "ad": "Moskva univermağı",
+        "sekil": "locations/Moskva-Univermagi.JPG",
+        "latitude": "40.4101923",
+        "longitude": "49.8115972",
+        "description": "Dəstəmazxana - Tualet Təharətxana - Var 30 nəfər camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb. 3-cü mərtəbədə sağa dönən kimi birinci qapı",
+   }, {
+        "ad": "Park Bulvar",
+        "sekil": "locations/Park-Bulvar.JPG",
+        "latitude": "40.371923",
+        "longitude": "49.838629",
+        "description": "Dəstəmazxana - Tualet Təharətxana - Tualet 7 nəfər camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Aygun City ticarət mərkəzi",
+        "sekil": "locations/AygunCity-TM.JPG",
+        "latitude": "40.4176386",
+        "longitude": "49.9627423",
+        "description": "Dəstəmazxana - Yoxdur Təharətxana - Yoxdur Camaat namazı qılına bilər. 3cü mərtəbədə yerləşir Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Diqlas ticarət mərkəzi",
+        "sekil": "locations/Diqlas.jpg",
+        "latitude": "40.4037796",
+        "longitude": "49.9480463",
+        "description": "Dəstəmazxana - Var Təharətxana - Var 25 nəfər camaat namazı qılına bilər. 3cü mərtəbədə yerləşir Qadınlar üçün yer ayrılıb.",
+   }, {
+        "ad": "Laçın ticarət mərkəzi",
+        "sekil": "locations/LacinTm.jpg",
+        "latitude": "40.3999265",
+        "longitude": "49.9501764",
+        "description": "Dəstəmazxana - Yoxdu Təharətxana - Yoxdur 25 nəfər camaat namazı qılına bilər. 3cü mərtəbədə yerləşir Qadınlar üçün yer ayrılıb.",
+   }, {
+        "ad": "Lotos T. M.",
+        "sekil": "locations/LotosTM.jpg",
+        "latitude": "40.4032085",
+        "longitude": "49.947663",
+        "description": "Dəstəmazxana - Tualet Təharətxana - Tualet 30 nəfər camaat namazı qılına bilər. 3cü mərtəbədə yerləşir Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Şamaxı ray. Ərəbşalbaş kəndi",
+        "sekil": "locations/Samaxi.jpg",
+        "latitude": "40.6235768",
+        "longitude": "48.6374073",
+        "description": "Dəstəmazxana - Var Təharətxana - Var 20 nəfər camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Çıraq Petrol",
+        "sekil": "locations/CiraqPetrol.jpg",
+        "latitude": "40.321859",
+        "longitude": "48.160352",
+        "description": "Dəstəmazxana - Var Təharətxana - Var 20 nəfər camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Qəbələ",
+        "sekil": "locations/Qebele.jpg",
+        "latitude": "40.9662722",
+        "longitude": "47.8358938",
+        "description": "Dəstəmazxana - Var Təharətxana - Var 30 nəfər camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Qəbələ 2",
+        "sekil": "locations/Qebele2.jpg",
+        "latitude": "40.9662722",
+        "longitude": "47.8358938",
+        "description": "Dəstəmazxana - Var Təharətxana - Var 30 nəfər camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Qobustan",
+        "sekil": "locations/Qobustan.jpg",
+        "latitude": "40.9662722",
+        "longitude": "47.8358938",
+        "description": "Dəstəmazxana - Var Təharətxana - Var 50 nəfər camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Quba",
+        "sekil": "locations/Quba.jpg",
+        "latitude": "41.3631894",
+        "longitude": "48.5099172",
+        "description": "Dəstəmazxana - Var Təharətxana - Var 50 nəfər camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }, {
+        "ad": "Beş Barmaq",
+        "sekil": "locations/5Barmaq.jpg",
+        "latitude": "40.9194032",
+        "longitude": "49.1047211",
+        "description": "Dəstəmazxana - Var Təharətxana - Var 30 nəfər camaat namazı qılına bilər. Qadınlar üçün yer ayrılmayıb.",
+   }]
+}

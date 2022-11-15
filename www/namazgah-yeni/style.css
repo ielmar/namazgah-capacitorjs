@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'namazgah';
+    src:
+        url('fonts/namazgah.ttf?e9ya61') format('truetype'),
+        url('fonts/namazgah.woff?e9ya61') format('woff'),
+        url('fonts/namazgah.svg?e9ya61#namazgah') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+i {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'namazgah' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mosque-build:before {
+    content: "\e901";
+}
+.icon-mosque-symbol:before {
+    content: "\e900";
+}
+.icon-sun:before {
+    content: "\e902";
+}
+.icon-file-text:before {
+    content: "\e926";
+}
+.icon-compass:before {
+    content: "\e94a";
+}
+.icon-clock:before {
+    content: "\e8b5";
+}
+.icon-add_location:before {
+    content: "\e567";
+}
+.icon-menu:before {
+    content: "\e3c7";
+}
+.icon-home:before {
+    content: "\e88a";
+}
+.icon-location:before {
+    content: "\e8b4";
+}
+.icon-map:before {
+    content: "\e55b";
+}
+.icon-settings:before {
+    content: "\e8b8";
+}
+.icon-o-clock:before {
+    content: "\e924";
+}
+
