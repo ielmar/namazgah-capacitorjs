@@ -22,6 +22,6 @@
     "@capacitor/ios": "^4.4.0"
   },
   "devDependencies": {
-    "@capacitor/cli": "^4.4.0"
+    "@capacitor/cli": "^8.0.2"
   }
 }
